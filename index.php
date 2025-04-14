@@ -47,6 +47,19 @@
     <!-- ##############  -->
     <!-- Home  -->
     <!-- ##############  -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 mx-auto text-center">
+                    <h5>Commencez vos achats en ligne quotidiens</h5>
+                    <h2>
+                        Restez chez vous & nous vous livrerons vos besoins quotidiens
+                    </h2>
+                    <a href="#" class="btn btn-primary">Achetez</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ############## -->
     <!-- About-->
