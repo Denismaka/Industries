@@ -50,12 +50,12 @@
     <section class="home" id="home">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-8 mx-auto text-center">
-                    <h5>Commencez vos achats en ligne quotidiens</h5>
+                <div class="col-12 col-md-8 mx-5">
+                    <h5>fournit des solutions de <span>construction</span> efficaces.</h5>
                     <h2>
-                        Restez chez vous & nous vous livrerons vos besoins quotidiens
+                        L'industrialisation est la production de biens ou de services connexes au sein d'une économie, ce qui en fait un indicateur pertinent.
                     </h2>
-                    <a href="#" class="btn btn-primary">Achetez</a>
+                    <a href="#" class="btn">contact</a>
                 </div>
             </div>
         </div>
