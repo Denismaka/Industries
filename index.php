@@ -130,6 +130,40 @@
     <!-- ############## -->
     <!-- Projets-->
     <!-- ############## -->
+    <section class="projets" id="projets">
+        <section class="heading">
+            <h2 class="text-uppercase fw-bold">projet d'inspiration</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, et a impedit provident harum blanditiis consequatur fugiat ratione deserunt delectus dolorem tempora quas dolorum quis. Illo dolorum in perferendis suscipit.</p>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="/assets/images/projets-01.webp" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/projets-02.webp" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/projets-03.webp" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/projets-04.webp" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/projets-05.webp" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/projets-06.webp" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/projets-07.webp" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="/assets/images/projets-08.webp" class="img-fluid rounded" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ############## -->
     <!-- Contact-->
