@@ -252,12 +252,39 @@ header.sticky {
 }
 
 /* ############## */
+/* Newsletter */
+/* ############## */
+#newsletter {
+  background-color: bisque;
+  color: var(--blue);
+  margin-top: 10rem;
+}
+#newsletter .section-heading h2 {
+  color: var(--orange);
+}
+#newsletter .container .row {
+  margin-bottom: 8rem;
+  padding-bottom: 2.5rem;
+}
+#newsletter .section-heading::before {
+  left: 27rem;
+}
+#newsletter .container .row .col-md-6 form .form-group .btn {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+/* ############## */
 /* Contact */
 /* ############## */
 
 /* ############## */
 /* Footer */
 /* ############## */
+footer {
+  background-color: var(--blue);
+  color: var(--white);
+}
 
 /* ############## */
 /* Responsive */
