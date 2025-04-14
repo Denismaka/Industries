@@ -24,6 +24,11 @@ Pour commencer avec le site web Industries, suivez ces étapes :
 - Boostrap
 - JavaScript
 - Php
+
+# contact
+ - Email : makadenis370@gmail.com
+ - Téléphone : +243818252385, +243997435030.
+ - Réseaux sociaux : Suivez-moi sur https://twitter.com/MakaDenis3, https://www.linkedin.com/in/Denismaka, https://github.com/Denismaka, https://www.facebook.com/Denismaka, Discord: denis3_2
   
 # Contribuer
 Les contributions sont les bienvenues ! Si vous avez des suggestions, des améliorations ou des corrections de bogues, n'hésitez pas à ouvrir un problème ou à soumettre une demande de tirage.
