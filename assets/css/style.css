@@ -35,6 +35,25 @@
   color: var(--white);
   transition: 0.5s ease-in;
 }
+
+/* Bouton de redirection  */
+.arrow {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(27, 30, 61, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+.icone {
+  font-size: 24px;
+  color: var(--orange);
+}
 /* ############## */
 /* Home */
 /* ############## */
