@@ -16,7 +16,7 @@
   background-color: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--orange);
+  background-color: var(--blue);
 }
 .btn {
   color: var(--blue);
@@ -40,7 +40,7 @@
 .arrow {
   height: 50px;
   width: 50px;
-  background-color: rgba(27, 30, 61, 1);
+  background-color: var(--orange);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,10 +49,11 @@
   right: 20px;
   bottom: 20px;
   cursor: pointer;
+  border-radius: 50%;
 }
 .icone {
   font-size: 24px;
-  color: var(--orange);
+  color: var(--white);
 }
 
 /* ############## */
@@ -112,7 +113,7 @@ header.sticky {
   padding: 5px 100px;
 }
 header.sticky {
-  background-color: var(--orange);
+  background-color: var(--blue);
 }
 
 /* ############## */
