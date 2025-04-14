@@ -143,6 +143,64 @@ header.sticky {
 /* ############## */
 /* About */
 /* ############## */
+#about .container {
+  padding-top: 6rem;
+}
+#about .container .col-md-6 .thumb {
+  position: relative;
+}
+#about .play-btn {
+  background-color: var(--red);
+  color: var(--white);
+  animation: pulse 2s ease infinite;
+}
+#about .container .col-md-6 .thumb a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  line-height: 70px;
+  text-align: center;
+  background-color: var(--red);
+  color: var(--white);
+  border-radius: 50%;
+  transform: translate(-35px, -35px);
+  transition: all 0.3s;
+}
+#about .container .col-md-6 .thumb a:hover {
+  opacity: 0.9;
+}
+#about .container .row .col-md-6:first-child .play-btn {
+  background-color: var(--orange);
+  color: var(--white);
+  animation: pulse 2s ease infinite;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--white);
+  }
+  100% {
+    box-shadow: 0 0 0 40px transparent;
+  }
+}
+#about .container .row .col-md-6:last-child h4 {
+  color: var(--orange);
+}
+#about .container .row .col-md-6:last-child a {
+  color: var(--orange);
+}
+#about .container .row .col-md-6:last-child .btn {
+  color: var(--white);
+  background-color: var(--orange);
+  border: solid 2px var(--orange);
+}
+#about .container .row .col-md-6:last-child .btn:hover {
+  background-color: var(--white);
+  color: var(--orange);
+  transition: 0.5s ease-in;
+}
 
 /* ############## */
 /* Services */
