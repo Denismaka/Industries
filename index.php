@@ -131,10 +131,11 @@
     <!-- Projets-->
     <!-- ############## -->
     <section class="projets" id="projets">
-        <section class="heading">
+        <div class="section-heading text-center">
             <h2 class="text-uppercase fw-bold">projet d'inspiration</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, et a impedit provident harum blanditiis consequatur fugiat ratione deserunt delectus dolorem tempora quas dolorum quis. Illo dolorum in perferendis suscipit.</p>
-        </section>
+            <p class="py-4">Découvrez nos réalisations créatives qui fusionnent innovation et design. Chaque projet raconte une histoire unique, façonnée par notre passion pour l'excellence.</p>
+        </div>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -176,7 +177,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6 text-md-left">
                     <h2>Restez informé !</h2>
-                    <p>Abonnez-vous à notre newsletter pour recevoir les dernières offres, promotions et nouveautés directement dans votre boîte mail. Ne manquez aucune occasion de faire des économies et de découvrir nos nouveaux produits !</p>
+                    <p>Abonnez-vous à notre newsletter pour être informé en priorité de nos dernières innovations techniques, de nos promotions exclusives et de nos nouveaux produits destinés au secteur de la construction. Ne manquez pas les opportunités de rester à la pointe de votre métier !</p>
                 </div>
                 <div class="col-md-6">
                     <form class="d-flex">
