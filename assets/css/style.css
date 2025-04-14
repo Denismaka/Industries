@@ -106,7 +106,7 @@ header ul li a {
   transition: 0.6s;
 }
 header ul li a:hover {
-  color: var(--blue);
+  color: var(--orange);
   transition: 0.5s ease-in-out;
 }
 header.sticky {
@@ -150,7 +150,6 @@ header.sticky {
   position: relative;
 }
 #about .play-btn {
-  background-color: var(--red);
   color: var(--white);
   animation: pulse 2s ease infinite;
 }
@@ -205,6 +204,34 @@ header.sticky {
 /* ############## */
 /* Services */
 /* ############## */
+#services {
+  margin-top: 10rem;
+}
+#services h2 {
+  color: var(--orange);
+  margin-left: 5.5rem;
+}
+#services .container .row .card {
+  margin: 10px 17px;
+  padding: 25px;
+  background-color: bisque;
+}
+#services .container .row .card:hover {
+  background-color: var(--white);
+  transition: 0.5s ease-in-out;
+}
+#services .container .row .card a {
+  text-decoration: none;
+  color: var(--blue);
+}
+#services .container .row .card i {
+  font-size: 50px;
+  color: var(--orange);
+  padding-bottom: 25px;
+}
+#services .container .row .card p {
+  text-transform: capitalize;
+}
 
 /* ############## */
 /* Projets */
