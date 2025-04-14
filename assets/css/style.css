@@ -142,3 +142,46 @@ header.sticky {
 /* ############## */
 /* Responsive */
 /* ############## */
+/* Styles pour le menu burger */
+.menu-toggle {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: var(--white);
+}
+@media (max-width: 768px) {
+  header {
+    padding: 10px 30px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: var(--blue);
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    margin-top: 125px;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .nav-list li {
+    margin: 15px 0;
+  }
+
+  header .logo img {
+    width: 15;
+  }
+  header.sticky {
+    padding: 15px 50px;
+  }
+}
