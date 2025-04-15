@@ -128,6 +128,9 @@ header.sticky {
     url("/assets/images/home.webp");
   background-size: cover;
 }
+#home .container .row .col-md-8 {
+  margin-left: 4.6rem;
+}
 #home .container .row .col-md-8 h5 {
   color: var(--orange);
   font-size: 40px;
