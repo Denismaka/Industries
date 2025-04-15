@@ -115,6 +115,13 @@ header.sticky {
 header.sticky {
   background-color: var(--blue);
 }
+/* Styles pour le menu burger */
+.menu-toggle {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: var(--white);
+}
 
 /* ############## */
 /* Home */
@@ -344,12 +351,25 @@ footer {
 /* ############## */
 /* Responsive */
 /* ############## */
-/* Styles pour le menu burger */
-.menu-toggle {
-  display: none;
-  font-size: 1.5em;
-  cursor: pointer;
-  color: var(--white);
+@media (max-width: 320px) {
+  #home {
+    overflow: hidden;
+  }
+  #home .container .row .col-md-8 {
+    margin-left: 0.5rem;
+  }
+  #home .container .row .col-md-8 h5 {
+    font-size: 20px;
+    margin-top: 5rem;
+  }
+  #home .container .row .col-md-8 h2 {
+    font-size: 1rem;
+  }
+  #services .container .row .card {
+    margin-left: 30px;
+    width: 80%;
+    text-align: center;
+  }
 }
 @media (max-width: 768px) {
   header {
@@ -385,5 +405,30 @@ footer {
   }
   header.sticky {
     padding: 15px 50px;
+  }
+  #about .container .row .col-md-6 h2 {
+    font-size: 20px;
+  }
+  #about .container .row .col-md-6 p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 992px) {
+  header .logo {
+    font-size: 1.5em;
+  }
+  header .logo img {
+    width: 18%;
+    margin-top: 0.1rem;
+  }
+  #about .container .row .col-md-6 p {
+    font-size: 12px;
+  }
+  #home .container .row .col-md-8 h2 {
+    font-size: 17px;
+  }
+  #home {
+    background-position: center;
+    background-size: cover;
   }
 }
