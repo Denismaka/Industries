@@ -301,7 +301,6 @@ header.sticky {
 #contact form textarea {
   width: 100%;
   padding: 1.5rem;
-  font-size: 1.4rem;
   color: var(--orange);
   border-radius: 0.8rem;
   margin: 0.7rem 0;
@@ -312,7 +311,6 @@ header.sticky {
 }
 #contact form textarea {
   resize: none;
-  height: 150px;
 }
 form input[type="submit"] {
   cursor: pointer;
@@ -325,7 +323,6 @@ form input[type="submit"] {
   padding: 1rem 2.8rem;
   border-radius: 2rem;
   transition: 0.2s ease-in-out;
-  font-size: 2rem;
 }
 #contact form .btn:hover {
   background-color: var(--orange);
