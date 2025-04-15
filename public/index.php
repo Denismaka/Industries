@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/bootstrap-icons/bootstrap-icons.css">
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/font/fontawesome/css/all.min.css">
     <link rel="website icon" href="/assets/images/Logo.png" />
     <title>Industries</title>
@@ -69,7 +69,7 @@
                 <div class="col-12 col-md-6 mt-4">
                     <div class="thumb">
                         <a rel="nofollow" href="http://youtube.com" class="play-btn"><i class="fa fa-play"></i></a>
-                        <img src="assets/images/about.webp" class="img-fluid rounded" alt="">
+                        <img src="/assets/images/about.webp" class="img-fluid rounded" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 mt-4">
