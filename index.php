@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="/assets/font/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="/assets/swiper/package/swiper-bundle.min.css">
     <link rel="website icon" href="/assets/images/Logo.png" />
     <title>Industries</title>
 </head>
