@@ -7,7 +7,7 @@
   font-family: "Roboto", sans-serif;
 }
 :root {
-  --blue: #040a5b;
+  --black: #000000;
   --orange: #ff8800;
   --white: #fefefefe;
 }
@@ -16,10 +16,10 @@
   background-color: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--blue);
+  background-color: var(--black);
 }
 .btn {
-  color: var(--blue);
+  color: var(--black);
   background-color: var(--white);
   font-size: 0.8em;
   font-weight: 600;
@@ -113,7 +113,7 @@ header.sticky {
   padding: 5px 100px;
 }
 header.sticky {
-  background-color: var(--blue);
+  background-color: var(--black);
 }
 /* Styles pour le menu burger */
 .menu-toggle {
@@ -231,7 +231,7 @@ header.sticky {
 }
 #services .container .row .card a {
   text-decoration: none;
-  color: var(--blue);
+  color: var(--black);
 }
 #services .container .row .card i {
   font-size: 50px;
@@ -288,7 +288,7 @@ header.sticky {
 /* ############## */
 #contact .heading {
   text-align: center;
-  color: var(--blue);
+  color: var(--black);
   text-transform: capitalize;
 }
 
@@ -337,14 +337,14 @@ form input[type="submit"] {
 #contact form .btn:hover {
   background-color: var(--orange);
   color: var(--white);
-  box-shadow: 0 0 1rem solid var(--blue);
+  box-shadow: 0 0 1rem solid var(--black);
 }
 
 /* ############## */
 /* Footer */
 /* ############## */
 footer {
-  background-color: var(--blue);
+  background-color: var(--black);
   color: var(--white);
 }
 footer a {
@@ -388,7 +388,7 @@ footer a {
     top: 80px;
     left: 0;
     width: 100%;
-    background-color: var(--blue);
+    background-color: var(--black);
     flex-direction: column;
     align-items: center;
     display: none;
